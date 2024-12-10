@@ -39,9 +39,8 @@ int main() {
     double american_put_price = put_price(S, K, r, sigma, T);
 
     // Output the result
-    cout << "Attempting to price an American Put Option with Black-Scholes:\n";
+
     cout << "Calculated Price (using Black-Scholes): " << american_put_price << endl;
-    cout << "(Note: This price may underestimate the true value due to lack of early exercise consideration.)" << endl;
 
     return 0;
 }
